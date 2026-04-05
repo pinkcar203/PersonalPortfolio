@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 const SCROLL_THRESHOLD_PX = 80;
 
 const NAV_LINKS = [
-  { href: "#projects", label: "Work" },
   { href: "#about", label: "About" },
+  { href: "#projects", label: "Work" },
   { href: "#contact", label: "Contact" },
 ] as const;
 

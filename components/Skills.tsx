@@ -73,7 +73,7 @@ export function Skills() {
           </h2>
         </header>
 
-        <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2">
           {GROUPS.map((group) => (
             <div
               key={group.title}

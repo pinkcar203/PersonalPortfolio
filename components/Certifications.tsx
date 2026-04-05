@@ -27,7 +27,7 @@ export function Certifications() {
           </h2>
         </header>
 
-        <div className="mt-12 flex flex-wrap gap-4">
+        <div className="mt-10 flex flex-wrap gap-4">
           {ITEMS.map((item) => (
             <div
               key={item.name}

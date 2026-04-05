@@ -5,7 +5,7 @@ export function Education() {
       className="scroll-mt-20 px-6 py-24 md:px-10"
       aria-labelledby="education-heading"
     >
-      <div className="mx-auto max-w-[700px]">
+      <div className="mx-auto max-w-[1100px]">
         <header>
           <p className="font-mono text-[0.7rem] tracking-[0.15em] text-[color:var(--text-muted)]">
             04 / EDUCATION
@@ -18,7 +18,7 @@ export function Education() {
           </h2>
         </header>
 
-        <div className="relative mt-12">
+        <div className="relative mt-10 max-w-[700px]">
           <div
             className="absolute bottom-2 left-[11px] top-2 w-px bg-[color:var(--border)]"
             aria-hidden

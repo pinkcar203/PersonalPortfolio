@@ -68,7 +68,7 @@ export function Experience() {
       className="scroll-mt-20 px-6 py-24 md:px-10"
       aria-labelledby="experience-heading"
     >
-      <div className="mx-auto max-w-[700px]">
+      <div className="mx-auto max-w-[1100px]">
         <header>
           <p className="font-mono text-[0.7rem] tracking-[0.15em] text-[color:var(--text-muted)]">
             02 / EXPERIENCE
@@ -81,12 +81,12 @@ export function Experience() {
           </h2>
         </header>
 
-        <div className="relative mt-12">
+        <div className="relative mt-10 max-w-[700px]">
           <div
             className="absolute bottom-2 left-[11px] top-2 w-px bg-[color:var(--border)]"
             aria-hidden
           />
-          <ul className="list-none p-0 m-0">
+          <ul className="m-0 list-none p-0">
             {ENTRIES.map((entry, index) => (
               <TimelineItem key={`${entry.company}-${entry.period}-${index}`} entry={entry} />
             ))}

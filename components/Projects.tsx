@@ -32,23 +32,23 @@ export function Projects() {
       aria-labelledby="projects-heading"
     >
       <div className="mx-auto max-w-[1100px]">
-        <header className="max-w-2xl">
+        <header>
           <p className="font-mono text-[0.7rem] tracking-[0.15em] text-[color:var(--text-muted)]">
             01 / WORK
           </p>
           <h2
             id="projects-heading"
-            className="font-heading mt-3 text-[clamp(2rem,4vw,3rem)] font-bold text-[color:var(--text-primary)]"
+            className="font-heading mt-3 text-[clamp(1.75rem,3vw,2.25rem)] font-bold text-[color:var(--text-primary)]"
           >
             Projects
           </h2>
-          <p className="mt-4 font-sans text-[color:var(--text-secondary)]">
-            Production systems with real users, real metrics, and real
-            infrastructure.
-          </p>
         </header>
+        <p className="mt-4 max-w-2xl font-sans text-[color:var(--text-secondary)]">
+          Production systems with real users, real metrics, and real
+          infrastructure.
+        </p>
 
-        <div className="mt-14 grid grid-cols-1 gap-5 lg:grid-cols-[repeat(3,minmax(320px,1fr))]">
+        <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-[repeat(3,minmax(320px,1fr))]">
           {ordered.map((project, index) => (
             <motion.div
               key={project.slug}

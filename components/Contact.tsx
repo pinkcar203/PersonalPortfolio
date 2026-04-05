@@ -27,22 +27,24 @@ export function Contact() {
       className="scroll-mt-20 px-6 py-24 md:px-10"
       aria-labelledby="contact-heading"
     >
-      <div className="mx-auto max-w-[600px] text-center">
-        <p className="font-mono text-[0.7rem] tracking-[0.15em] text-[color:var(--text-muted)]">
-          06 / CONTACT
-        </p>
-        <h2
-          id="contact-heading"
-          className="font-heading mt-3 text-[clamp(1.75rem,3vw,2.25rem)] font-bold text-[color:var(--text-primary)]"
-        >
-          Let&apos;s Talk
-        </h2>
-        <p className="mt-4 font-sans text-[color:var(--text-secondary)]">
+      <div className="mx-auto max-w-[1100px]">
+        <header>
+          <p className="font-mono text-[0.7rem] tracking-[0.15em] text-[color:var(--text-muted)]">
+            06 / CONTACT
+          </p>
+          <h2
+            id="contact-heading"
+            className="font-heading mt-3 text-[clamp(1.75rem,3vw,2.25rem)] font-bold text-[color:var(--text-primary)]"
+          >
+            Let&apos;s Talk
+          </h2>
+        </header>
+        <p className="mt-4 max-w-2xl font-sans text-[color:var(--text-secondary)]">
           I&apos;m graduating in 2026 and actively exploring AI/ML engineering roles. If
           you&apos;re building something interesting, I&apos;d love to hear about it.
         </p>
 
-        <div className="mt-10 flex flex-col gap-4">
+        <div className="mt-10 flex max-w-[600px] flex-col gap-4">
           <a
             href="mailto:prithikashrikannan@gmail.com"
             className={linkButtonClass}
