@@ -40,8 +40,7 @@ export function Contact() {
           </h2>
         </header>
         <p className="mt-4 max-w-2xl font-sans text-[color:var(--text-secondary)]">
-          I&apos;m graduating in 2026 and actively exploring AI/ML engineering roles. If
-          you&apos;re building something interesting, I&apos;d love to hear about it.
+          If you&apos;re building something interesting, I&apos;d love to hear about it.
         </p>
 
         <div className="mt-10 flex max-w-[600px] flex-col gap-4">
