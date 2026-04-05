@@ -12,7 +12,7 @@ const fadeInView = {
 const FUN_FACTS = [
   {
     emoji: "🏋️",
-    text: "Goes to the gym religiously. Has strong opinions about form.",
+    text: "Loves to gym in my free time"
   },
   {
     emoji: "🍞",
